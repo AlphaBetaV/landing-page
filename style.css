@@ -1,3 +1,140 @@
 body {
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
 }
+
+.header,
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    height: 48px;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    width: 900px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a,
+.copyright-text {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+img {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 24px;
+}
+
+.content-box-1 {
+    display: flex;
+    flex: 1.25 1 0;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub-hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button,
+.action-button {
+    color: #3882f6;
+}
+
+.content-box-2 {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column
+}
+
+.box-2-text {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-top: 10px;
+}
+
+.box-2-img-description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Add widths of boxes, gap between boxes, images, interesting stuff, border,bring title down */
+
+
+.content-box-3 {
+    display: flex;
+    flex: .75 1 0;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center ;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* specify height/width for q-box to flex flex-end align the author */
+
+.content-box-4 {
+    display: flex;
+    flex: .75 1 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* create gap/separation between CTA and button, don't center everything */
