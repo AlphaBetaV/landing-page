@@ -12,13 +12,31 @@ body {
     box-sizing: border-box;
     height: 48px;
     background-color: #1f2937;
+}
+
+.header-box-sizer {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex: 1;
+}
+
+.logo-box {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
+.logo-resize {
+    width: 10%;
+    height: auto;
 }
 
 .header-links {
     display: flex;
     margin-left: auto;
-    width: 900px;
+    width: 50%;
     justify-content: center;
     gap: 24px;
 }
@@ -62,6 +80,26 @@ img {
     align-items: center;
 }
 
+.box-1-sizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    height: 80%;
+    gap: 10px;
+}
+
+.box-1-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+
+.hero-image {
+    width: 50%;
+}
+
 .hero-text {
     font-size: 48px;
     font-weight: bolder;
@@ -71,11 +109,6 @@ img {
 .sub-hero-text {
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.hero-button,
-.action-button {
-    color: #3882f6;
 }
 
 .content-box-2 {
@@ -187,12 +220,14 @@ img {
     color: #f9faf8;
 }
 
-.action-button {
+
+
+.action-button,
+.hero-button {
     height: 30%;
     width: 15%;
     background-color: #3882f6;
     color: #f9faf8;
-    border-color: #f9faf8;
     font-weight: bolder;
 }
 
